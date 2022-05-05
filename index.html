@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!--<nav>
+    <div class="left-nav-wrapper">
+      <img class="logo" src="./images/logo.svg" alt="" />
+      <ul class="left-nav">
+        <li>Features <span><img src="images/icon-arrow-down.svg" alt=""></span></li>
+        <li>Company <span><img src="images/icon-arrow-down.svg" alt=""></span></li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+    </div>
+    <ul class="right-nav">
+      <li>Login</li>
+      <li>Register</li>
+    </ul>
+  </nav>-->
+  <a class="skip-to-content" href="#main">Skip to content</a>
+  <header>
+    <div>
+      <img class="logo" src="./images/logo.svg" alt="snap" />
+    </div>
+    <button class="mobile-nav-toggle" aria-controls="menu">
+      <!--<img src="images/icon-menu.svg" alt="Open Menu" />-->
+      <span class="sr-only" aria-expanded="false" role="note">Menu</span>
+    </button>
+    <nav>
+      <ul id="menu" class="menu" data-visible="false">
+        <li class="menu__item features">
+          <a href="#" class="menu__link">Features<span class="link-span"><img src="images/icon-arrow-down.svg" alt=""></span></a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a class="submenu__link" href="#"><span><img src="images/icon-todo.svg" alt=""></span>Todo List</a>
+            </li>
+            <li class="submenu__item">
+              <a class="submenu__link" href="#"><span><img src="images/icon-calendar.svg" alt=""></span>Calendar</a>
+            </li>
+            <li class="submenu__item">
+              <a class="submenu__link" href="#"><span><img src="images/icon-reminders.svg" alt=""></span>Reminders</a>
+            </li>
+            <li class="submenu__item">
+              <a class="submenu__link" href="#"><span><img src="images/icon-planning.svg" alt=""></span>Planning</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu__item company">
+          <a href="#" class="menu__link">Company<span class="link-span"><img src="images/icon-arrow-down.svg" alt=""></span></a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">History</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Our Team</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Blog</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu__item contact">
+          <a href="#" class="menu__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">About</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="right__nav">
+      <button class="right__nav__login">Login</button>
+      <button class="right__nav__register">Register</button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="learn-more-section">
+      <h1>Make<br class="mobile-none"> remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+      <button class="learn-more">Learn More</button>
+      <div class="icons-row">
+        <img src="images/client-databiz.svg" alt="databiz" />
+        <img src="images/client-audiophile.svg" alt="audiophile" />
+        <img src="images/client-meet.svg" alt="meet" />
+        <img src="images/client-maker.svg" alt="maker" />
+      </div>
+    </section>
+    <div class="picture-div">
+      <picture>
+        <source srcset="images/image-hero-desktop.png" media="(min-width: 800px)">
+        <img src="images/image-hero-mobile.png" alt="" />
+    </picture>
+    </div>
+  </main>
+</body>
+</html>
