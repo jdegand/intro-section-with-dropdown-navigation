@@ -7,6 +7,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -33,6 +34,10 @@ Users should be able to:
 ![](intro-section-desktop.png)
 
 ![](intro-section-desktop-links.png)
+
+### Links
+
+- Live Site URL: [Github Pages](https://jdegand.github.io/intro-section-with-dropdown-navigation)
 
 ## My process
 
